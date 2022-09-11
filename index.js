@@ -57,12 +57,12 @@ const compareGuess = () => {
   } else {
     if (userNumber > computerGuess) {
       audio3.play();
-      userGuessUpdate.innerHTML = `You Loose buddy!! 😔 correct number was ${computerGuess}. You should try again to show the world who you are 😠.`;
+      userGuessUpdate.innerHTML = `You Loose buddy!! 😔 correct number was ${computerGuess}. You should try again to win the game.`;
       userNumberUpdate.value = "";
       startNewGame();
     } else if (userNumber < computerGuess) {
       audio3.play();
-      userGuessUpdate.innerHTML = `You Loose buddy!! 😔 correct number was ${computerGuess}. You should try again to show the world who you are 😠.`;
+      userGuessUpdate.innerHTML = `You Loose buddy!! 😔 correct number was ${computerGuess}. You should try again to win the game.`;
       userNumberUpdate.value = "";
       startNewGame();
     } else {
