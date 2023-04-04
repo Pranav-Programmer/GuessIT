@@ -1,1 +1,1 @@
-# GuessIT.github.io
+# GuessIT
